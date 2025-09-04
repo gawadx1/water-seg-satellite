@@ -36,8 +36,8 @@ This project aims to accurately segment water bodies from multispectral and opti
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/multispectral-water-segmentation.git
-cd multispectral-water-segmentation
+git clone https://github.com/gawadx1/water-seg-satellite.git
+cd water-seg-satellite
 ````
 
 ### 2. Install Dependencies
