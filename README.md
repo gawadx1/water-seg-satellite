@@ -1,4 +1,3 @@
-```markdown
 # 🌊 Multispectral Water Segmentation
 
 **Deep learning-based water body segmentation from 12-band satellite imagery using U-Net.**
@@ -27,23 +26,6 @@ This project aims to accurately segment water bodies from multispectral and opti
 
 ---
 
-## 📁 Dataset Structure
-
-The dataset should be organized as:
-
-```
-
-data/
-├── images/
-│   ├── 0.tif
-│   ├── 1.tif
-│   └── ...
-└── labels/
-├── 0.png
-├── 1.png
-└── ...
-
-````
 
 - Each `.tif` file contains **12 spectral bands**.
 - Each `.png` is a **binary mask** (grayscale: 0 = land, 255 = water → converted to 0/1).
